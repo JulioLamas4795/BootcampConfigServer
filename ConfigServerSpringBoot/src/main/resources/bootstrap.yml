@@ -11,12 +11,13 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/pwhuanco/config_data.git
+          uri:  https://github.com/JulioLamas4795/config_data.git
           search-paths: config-data
-          default-label: "main"
+          default-label: "main" #main
 
   application:
     name: serverconfig
 
   profiles:
     active: dev
+    #https://github.com/pwhuanco/config_data.git
